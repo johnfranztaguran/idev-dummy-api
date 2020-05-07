@@ -1,440 +1,216 @@
 {
   "models": {
-    "prepare": [
+    "bottle": [
       {
-        "uuid": "62798278-2fbc-4c31-98de-b7959c191688",
-        "mothername": "Maria Teresa",
-        "unit": "Hospital Unit 1",
-        "room": "room1",
-        "bottles": [
+        "basescanned": {
+          "bottlebarcode": "EBM00004U",
+          "expiry": "04/23/2020 11:00"
+        },
+        "ownerinformation":{
+          "patientname": "Juan dela cruz",
+          "mothername": "Maria C. dela Cruz",
+          "unit": "Hospital Unit One",
+          "room": "R0001"
+        },
+        "orderlist": [
           {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
+            "orderdata": {
+              "order": "ORD001",
+              "patientname": "Hola Hoop",
+              "ordertype": "standard",
+              "base": "Breastmilk",
+              "date": "03/30/2020"
+            },
+            "orderdetailsformulation":{
+              "base": "Breast Milk",
+              "feedfrequency": "Q2H",
+              "totaldesiredvolume": "135 ml",
+              "finalkcaloz": "21 kcal/oz",
+              "additives": "Breastmilk Preterm (20 kcal/oz)",
+              "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+              "formulasum": "135ml (21 kcal/oz)"
+            }
           },
           {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "standard",
-            "ordernumber": "ord001"
-          },
-          {
-            "number": 2,
-            "patientname": "Baby Boy2",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
+            "orderdata": {
+              "order": "ORD002",
+              "patientname": "Hala Bira",
+              "ordertype": "NPO",
+              "base": "-",
+              "date": "03/30/2020"
+            },
+            "orderdetailsformulation":{
+              "base": "Breast Milk",
+              "feedfrequency": "Q2H",
+              "totaldesiredvolume": "135 ml",
+              "finalkcaloz": "21 kcal/oz",
+              "additives": "Breastmilk Preterm (20 kcal/oz)",
+              "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+              "formulasum": "135ml (21 kcal/oz)"
+            }
           }
         ]
       },
       {
-        "uuid": "2df619ea-8472-48f4-9615-3f387a492d22",
-        "mothername": "Ida Mama",
-        "unit": "Hospital Unit 2",
-        "room": "room2",
-        "bottles": [
+        "basescanned": {
+          "bottlebarcode": "EBM00004U",
+          "expiry": "04/23/2020 11:00"
+        },
+        "ownerinformation":{
+          "patientname": "Juan dela cruz",
+          "mothername": "Maria C. dela Cruz",
+          "unit": "Hospital Unit One",
+          "room": "R0001"
+        },
+        "orderlist": [
           {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
+            "orderdata": {
+              "order": "ORD001",
+              "patientname": "Hola Hoop",
+              "ordertype": "standard",
+              "base": "Breastmilk",
+              "date": "03/30/2020"
+            },
+            "orderdetailsformulation":{
+              "base": "Breast Milk",
+              "feedfrequency": "Q2H",
+              "totaldesiredvolume": "135 ml",
+              "finalkcaloz": "21 kcal/oz",
+              "additives": "Breastmilk Preterm (20 kcal/oz)",
+              "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+              "formulasum": "135ml (21 kcal/oz)"
+            }
           },
           {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy3",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "standard",
-            "ordernumber": "ord001"
-          },
-          {
-            "number": 2,
-            "patientname": "Baby Boy4",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
-          }
-        ]
-      },
-      {
-        "uuid": "fee4a89c-8c27-4073-9055-a0b052a1c079",
-        "mothername": "Inday Mama",
-        "unit": "Hospital Unit 3",
-        "room": "room3",
-        "bottles": [
-          {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
-          },
-          {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy5",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "standard",
-            "ordernumber": "ord001"
-          },
-          {
-            "number": 2,
-            "patientname": "Baby Boy6",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
-          }
-        ]
-      },
-      {
-        "uuid": "6278b9e5-3862-44f8-97b0-5bd37bb70141",
-        "mothername": "Manang Mama",
-        "unit": "Hospital Unit 4",
-        "room": "room4",
-        "bottles": [
-          {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
-          },
-          {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy7",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "standard",
-            "ordernumber": "ord001"
-          },
-          {
-            "number": 2,
-            "patientname": "Baby Boy8",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
+            "orderdata": {
+              "order": "ORD002",
+              "patientname": "Hala Bira",
+              "ordertype": "NPO",
+              "base": "-",
+              "date": "03/30/2020"
+            },
+            "orderdetailsformulation":{
+              "base": "Breast Milk",
+              "feedfrequency": "Q2H",
+              "totaldesiredvolume": "135 ml",
+              "finalkcaloz": "21 kcal/oz",
+              "additives": "Breastmilk Preterm (20 kcal/oz)",
+              "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+              "formulasum": "135ml (21 kcal/oz)"
+            }
           }
         ]
       }
     ],
-    "receive": [
-      {
-        "uuid": "62798278-2fbc-4c31-98de-b7959c191688",
-        "mothername": "Maria Teresa",
-        "unit": "Hospital Unit 1",
-        "room": "room1",
-        "bottles": [
+    "mother": {
+      "motherinformation": {
+        "barcode": "MOM000001",
+        "firstname": "Maria",
+        "middlename": "C",
+        "lastname": "dela Cruz",
+        "patients": [
           {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
+            "barcode": "BAB00001",
+            "firstname": "Juan",
+            "middlename": "C",
+            "lastname": "dela Cruz",
+            "lastpreparedfed": "04/21/2020 12:00",
+            "lastfed": "04/21/2020 12:30"
           },
           {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy",
+            "barcode": "BAB00002",
+            "firstname": "John",
+            "middlename": "C",
+            "lastname": "Doe",
             "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "standard",
-            "ordernumber": "ord001"
-          },
-          {
-            "number": 2,
-            "patientname": "Baby Boy2",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
+            "lastfed": "04/21/2020 12:30"
           }
         ]
       },
-      {
-        "uuid": "2df619ea-8472-48f4-9615-3f387a492d22",
-        "mothername": "Ida Mama",
-        "unit": "Hospital Unit 2",
-        "room": "room2",
-        "bottles": [
-          {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
-          },
-          {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy3",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
+      "orderlist": [
+        {
+          "orderdata": {
+            "order": "ORD001",
+            "patientname": "Hola Hoop",
             "ordertype": "standard",
-            "ordernumber": "ord001"
+            "base": "Breastmilk",
+            "date": "03/30/2020"
           },
-          {
-            "number": 2,
-            "patientname": "Baby Boy4",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
+          "orderdetailsformulation":{
+            "base": "Breast Milk",
+            "feedfrequency": "Q2H",
+            "totaldesiredvolume": "135 ml",
+            "finalkcaloz": "21 kcal/oz",
+            "additives": "Breastmilk Preterm (20 kcal/oz)",
+            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+            "formulasum": "135ml (21 kcal/oz)"
           }
-        ]
+        },
+        {
+          "orderdata": {
+            "order": "ORD002",
+            "patientname": "Hala Bira",
+            "ordertype": "NPO",
+            "base": "",
+            "date": "03/30/2020"
+          },
+          "orderdetailsformulation":{
+            "base": "Breast Milk",
+            "feedfrequency": "Q2H",
+            "totaldesiredvolume": "135 ml",
+            "finalkcaloz": "21 kcal/oz",
+            "additives": "Breastmilk Preterm (20 kcal/oz)",
+            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+            "formulasum": "135ml (21 kcal/oz)"
+          }
+        }
+      ]
+    },
+    "patient": {
+      "patientdetails": {
+        "patientname": "Juan dela cruz (BAB000001)",
+        "mothername": "Maria C. dela Cruz (MOM000001)",
+        "unit": "Hospital Unit One",
+        "room": "R0001"
       },
-      {
-        "uuid": "fee4a89c-8c27-4073-9055-a0b052a1c079",
-        "mothername": "Inday Mama",
-        "unit": "Hospital Unit 3",
-        "room": "room3",
-        "bottles": [
-          {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
-          },
-          {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
-          }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy5",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
+      "orderlist": [
+        {
+          "orderdata": {
+            "order": "ORD001",
+            "patientname": "Hola Hoop",
             "ordertype": "standard",
-            "ordernumber": "ord001"
+            "base": "Breastmilk",
+            "date": "03/30/2020"
           },
-          {
-            "number": 2,
-            "patientname": "Baby Boy6",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
+          "orderdetailsformulation":{
+            "base": "Breast Milk",
+            "feedfrequency": "Q2H",
+            "totaldesiredvolume": "135 ml",
+            "finalkcaloz": "21 kcal/oz",
+            "additives": "Breastmilk Preterm (20 kcal/oz)",
+            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+            "formulasum": "135ml (21 kcal/oz)"
           }
-        ]
-      },
-      {
-        "uuid": "6278b9e5-3862-44f8-97b0-5bd37bb70141",
-        "mothername": "Manang Mama",
-        "unit": "Hospital Unit 4",
-        "room": "room4",
-        "bottles": [
-          {
-            "number": 1,
-            "bottlebarcode": "EBM00004U",
-            "expiry": "04/21/2020 11:00",
-            "status": 1,
-            "idbaby": 2342,
-            "idmother": 2534
+        },
+        {
+          "orderdata": {
+            "order": "ORD002",
+            "patientname": "Hala Bira",
+            "ordertype": "NPO",
+            "base": "--",
+            "date": "03/30/2020"
           },
-          {
-            "number": 2,
-            "bottlebarcode": "EBM00004Y",
-            "expiry": "04/21/2020 11:00",
-            "status": 0,
-            "idbaby": 2342,
-            "idmother": 2534
+          "orderdetailsformulation":{
+            "base": "Breast Milk",
+            "feedfrequency": "Q2H",
+            "totaldesiredvolume": "135 ml",
+            "finalkcaloz": "21 kcal/oz",
+            "additives": "Breastmilk Preterm (20 kcal/oz)",
+            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+            "formulasum": "135ml (21 kcal/oz)"
           }
-        ],
-        "baby": [
-          {
-            "number": 1,
-            "patientname": "Baby Boy7",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": true,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 5,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "standard",
-            "ordernumber": "ord001"
-          },
-          {
-            "number": 2,
-            "patientname": "Baby Boy8",
-            "lastpreparedfed": "04/21/2020 12:00",
-            "lastfed": "04/21/2020 12:30",
-            "ordertouse": false,
-            "lastprepareddate": "02/30/2020",
-            "preparecaloz": 10,
-            "additive": 1,
-            "orderdate": "03/30/2020",
-            "base": "breastmilk",
-            "ordertype": "npo",
-            "ordernumber": "ord002"
-          }
-        ]
-      }
-    ]
+        }
+      ]
+    }
   }
 }
