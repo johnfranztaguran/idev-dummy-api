@@ -49,56 +49,6 @@
           }
         }
       ]
-    },
-    {
-      "basescanned": {
-        "bottlebarcode": "EBM00004U",
-        "expiry": "04/23/2020 11:00"
-      },
-      "ownerinformation":{
-        "patientname": "Juan dela cruz",
-        "mothername": "Maria C. dela Cruz",
-        "unit": "Hospital Unit One",
-        "room": "R0001"
-      },
-      "orderlist": [
-        {
-          "orderdata": {
-            "order": "ORD001",
-            "patientname": "Hola Hoop",
-            "ordertype": "standard",
-            "base": "Breastmilk",
-            "date": "03/30/2020"
-          },
-          "orderdetailsformulation":{
-            "base": "Breast Milk",
-            "feedfrequency": "Q2H",
-            "totaldesiredvolume": "135 ml",
-            "finalkcaloz": "21 kcal/oz",
-            "additives": "Breastmilk Preterm (20 kcal/oz)",
-            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
-            "formulasum": "135ml (21 kcal/oz)"
-          }
-        },
-        {
-          "orderdata": {
-            "order": "ORD002",
-            "patientname": "Hala Bira",
-            "ordertype": "NPO",
-            "base": "-",
-            "date": "03/30/2020"
-          },
-          "orderdetailsformulation":{
-            "base": "Breast Milk",
-            "feedfrequency": "Q2H",
-            "totaldesiredvolume": "135 ml",
-            "finalkcaloz": "21 kcal/oz",
-            "additives": "Breastmilk Preterm (20 kcal/oz)",
-            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
-            "formulasum": "135ml (21 kcal/oz)"
-          }
-        }
-      ]
     }
   ],
   "mother": [
@@ -131,7 +81,7 @@
         {
           "orderdata": {
             "order": "ORD001",
-            "patientname": "Hola Hoop",
+            "patientname": "Hola Hoop Mother",
             "ordertype": "standard",
             "base": "Breastmilk",
             "date": "03/30/2020"
@@ -149,7 +99,7 @@
         {
           "orderdata": {
             "order": "ORD002",
-            "patientname": "Hala Bira",
+            "patientname": "Hala Bira Mother",
             "ordertype": "NPO",
             "base": "",
             "date": "03/30/2020"
@@ -179,7 +129,7 @@
         {
           "orderdata": {
             "order": "ORD001",
-            "patientname": "Hola Hoop",
+            "patientname": "Hola Hoop Patient",
             "ordertype": "standard",
             "base": "Breastmilk",
             "date": "03/30/2020"
@@ -197,7 +147,7 @@
         {
           "orderdata": {
             "order": "ORD002",
-            "patientname": "Hala Bira",
+            "patientname": "Hala Bira Patient",
             "ordertype": "NPO",
             "base": "--",
             "date": "03/30/2020"
