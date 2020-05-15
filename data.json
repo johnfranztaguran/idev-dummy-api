@@ -1,6 +1,7 @@
 {
   "bottle": [
     {
+      "uuid": "62798278-2fbc-4c31-98de-b7959c191688",
       "basescanned": {
         "bottlebarcode": "EBM00004U",
         "expiry": "04/23/2020 11:00"
@@ -43,6 +44,57 @@
             "feedfrequency": "Q2H",
             "totaldesiredvolume": "135 ml",
             "finalkcaloz": "21 kcal/oz",
+            "additives": "Breastmilk Preterm (20 kcal/oz)",
+            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+            "formulasum": "135ml (21 kcal/oz)"
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "2df619ea-8472-48f4-9615-3f387a492d22",
+      "basescanned": {
+        "bottlebarcode": "EBM00004U4",
+        "expiry": "04/23/2020 11:00"
+      },
+      "ownerinformation":{
+        "patientname": "Juan dela cruz424",
+        "mothername": "Maria C. dela Cruz424",
+        "unit": "Hospital Unit One424",
+        "room": "R0001424"
+      },
+      "orderlist": [
+        {
+          "orderdata": {
+            "order": "ORD004241",
+            "patientname": "Hola Hoop424",
+            "ordertype": "standard42",
+            "base": "Breastmilk42",
+            "date": "03/30/202042"
+          },
+          "orderdetailsformulation":{
+            "base": "Breast Milk42",
+            "feedfrequency": "Q2H42",
+            "totaldesiredvolume": "135 ml42",
+            "finalkcaloz": "21 kcal/oz42",
+            "additives": "Breastmilk Preterm (20 kcal/oz)424",
+            "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
+            "formulasum": "135ml (21 kcal/oz424)"
+          }
+        },
+        {
+          "orderdata": {
+            "order": "ORD004242",
+            "patientname": "Hala Bira424",
+            "ordertype": "NPO424",
+            "base": "-",
+            "date": "03/30/2020"
+          },
+          "orderdetailsformulation":{
+            "base": "Breast Milk424",
+            "feedfrequency": "Q2H424",
+            "totaldesiredvolume": "135 ml424",
+            "finalkcaloz": "21 kcal/oz2424",
             "additives": "Breastmilk Preterm (20 kcal/oz)",
             "formula": "Enfamil Enfacare (mixed to 21 kcal/oz) 73.08 ml Breastmilk Preterm + 61.92 ml Enfamil Enfacare",
             "formulasum": "135ml (21 kcal/oz)"
